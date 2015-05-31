@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Neckbeard Nunez",
+  "description": "Fixing the web to give Steven Nunez the respect he deserves.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "nunez-icon.png",
+    "default_title": "Neckbeard Nunez"
+  }
+}
