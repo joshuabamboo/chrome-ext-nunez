@@ -7,7 +7,8 @@
 
   "browser_action": {
     "default_icon": "nunez-icon.png",
-    "default_title": "Neckbeard Nunez"
+    "default_title": "Neckbeard Nunez",
+    "default_popup": ""
   },
 
   "content_scripts": [
@@ -16,5 +17,14 @@
       "js": ["jquery-2.1.4.min.js", "replace.js"],
       "run_at": "document_end"
     }
-  ]
+  ],
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["music.js"],
+    "persistent": false
+  }
 }
