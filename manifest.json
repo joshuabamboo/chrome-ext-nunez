@@ -26,5 +26,9 @@
   "background": {
     "scripts": ["music.js"],
     "persistent": false
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
   }
 }
