@@ -1,4 +1,14 @@
 body {
-    background: #ddd url(../nunez-profile.png) center top no-repeat;
-    background-size: cover;
+  background: #ddd url(../nunez-profile.png) center top no-repeat;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#sardine {
+  position: fixed;
+  top: 5px;
+  left: 25%;
+  font-size: 250%;
+  float:left;
+  display:inline-block;
 }
