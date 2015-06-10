@@ -5,12 +5,5 @@ chrome.browserAction.onClicked.addListener(function(activeTab)
 
     var audio = new Audio();        // create the audio object
     audio.src = "RomeoSantos.mp3"; // assign the audio file to it
-    // audio.play();
-
-
-    if (audio.paused()) {
-        audio.play();
-    }else{
-        audio.pause();
-    }
+    audio.play();
 });
